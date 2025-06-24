@@ -1,0 +1,135 @@
+.containerBox{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    font-family: poppins;
+}
+
+.logoBox{
+    display: flex;
+    margin: 40px 0 40px 0;
+}
+.loginBox{
+    display: flex;
+    align-items: center;
+    /* width:  100%; */
+    /* margin: 0 auto; */
+    
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.loginDetailsBox{
+    /* border: 1px solid red; */
+
+    width: 40%;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.welcomeBox{
+    color: #213f7d;
+    font-size: 20px;
+    line-height: 0.6;
+}
+.welcomeBox h1{
+    font-weight: bold;
+}
+.inputBox{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 75%;
+    /* height: 40px; */
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.inputBox input{
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.inputBox a{
+    text-decoration: none;
+  color: #39cdcc;
+    height: 40px;
+    font-size: 14px;
+    display: flex;  
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+.inputBox button{
+    text-decoration: none;
+    border: 1px solid #fff;
+    background-color: #39cdcc;
+    color: #fff;
+    height: 40px;
+    padding: 10px;
+    /*display: flex;
+    */align-items: center;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+/* MEDIA QUERRY */
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* styles for phones */
+ .loginBox{
+    flex-direction: column;
+ }
+ .imageBox img{
+    width: 100%;
+ }
+ .loginDetailsBox{
+    width: 100%;
+ }
+ .inputBox{
+    width: 90%;
+ }
+}
+
+/* Small devices (portrait tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* styles for small tablets */
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* styles for tablets */
+ .loginDetailsBox{
+    width: 100%;
+  }
+  .imageBox img{
+    width: 100%;
+ } 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* styles for small laptops/desktops */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* styles for large screens */
+}
