@@ -1,0 +1,11 @@
+.usersIcon{
+    /* border: 3px solid #fbfbfb; */
+    width: 220px;
+    padding: 18px;
+    /* height: auto; */
+    background-color: #fff;
+    box-shadow:  3px #fbfbfb;
+}
+.usersIcon h3,h1{
+    color: #213f7d;
+}
