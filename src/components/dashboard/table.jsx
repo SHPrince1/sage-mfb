@@ -16,13 +16,27 @@ const columns = [
   {
     title: "Organization",
     dataIndex: "organization",
-    key: "name",
+    key: "organization",
+    filters: [
+      { text: "Sage Mfb", value: "Sage Mfb" },
+      { text: "Ohpay Mfb", value: "Ohpay Mfb" },
+      { text: "PalPay", value: "PalPay" },
+      { text: "CardPay", value: "CardPay" },
+      { text: "Quick Pay", value: "Quick Pay" },
+    ],
+    onFilter: (value, record) => record.organization === value,
     render: (text) => <a>{text}</a>,
   },
   {
     title: "User Name",
     dataIndex: "name",
     key: "name",
+    filters: [
+      { text: "John Brown", value: "John Brown" },
+      { text: "Jim Green", value: "Jim Green" },
+      { text: "Joe Black", value: "Joe Black" },
+    ],
+    onFilter: (value, record) => record.name === value,
     render: (text) => <a>{text}</a>,
   },
   {
@@ -66,6 +80,7 @@ const columns = [
     ),
   },
 ];
+
 const data = [
   {
     key: "0",

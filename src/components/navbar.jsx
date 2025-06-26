@@ -1,18 +1,23 @@
 import React from "react";
-import Logo from '../assets/lensqr-logo.svg'
-import style from '../styles/navbar.module.css'
+import Logo from "../assets/lensqr-logo.svg";
+import style from "../styles/navbar.module.css";
 
 const NavBar = () => {
   return (
     <div>
-      <nav style={{ padding: "4px", background: "#333", color: "#fff" }}>
+      <nav
+        className={style.container}
+        style={{ padding: "4px", background: "#fff", color: "#fff" }}
+      >
         <div className={style.logoInput}>
-            <div>
-                <img src={Logo} alt="" />
-            </div>
-            <div>
-                <input />
-            </div>
+          <div>
+            <a href="/">
+              <img src={Logo} alt="" />
+            </a>
+          </div>
+          <div>
+            <input placeholder="Searchfor anything" />
+          </div>
         </div>
       </nav>
     </div>

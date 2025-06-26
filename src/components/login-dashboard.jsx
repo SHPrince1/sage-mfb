@@ -121,7 +121,7 @@ const [collapsed, setCollapsed] = useState(false);
 
       <Layout>
         <Sider
-          width={240}
+          width={200}
           collapsible
           collapsed={collapsed}
           onCollapse={(value) => setCollapsed(value)}
