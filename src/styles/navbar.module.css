@@ -1,16 +1,76 @@
-.container{
-    border: 1px solid red;
-
+.container {
+  /* border: 1px solid red; */
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  /* color: #000; */
+  background-color: #000;
 }
 
-.logoInput{
+.logoInput {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+}
+.logoInput input {
+  width: 250px;
+  height: 7px;
+  padding: 10px;
+  border-color: aliceblue;
+  outline-color: aliceblue;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.inputSearchDiv{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.SearchDiv{
+    background-color: aqua;
+    width: 15%;
+    border: 1px solid aqua;
+    height: 30px;
+    border-radius: 4px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    gap: 50px;
-    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
-.logoInput input{
-    width: 250px;
-    height: 12px;
-    padding: 10px;
+
+.profileImage {
+    /* border: 1px solid red; */
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+.proImageName{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #213f7d;
+}
+.proImageName img{
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+   
+}
+.proImageName p{
+    font-size: 14px;
 }
