@@ -1,0 +1,41 @@
+h5 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 22px;
+  font-weight: 500px;
+  color: #213f7d;
+}
+p{
+    color: #213f7d;
+    font-weight: 200px;
+    font-size: 16px;
+}
+.nameContainer{
+
+    background-color: #fff;
+}
+.userdetailBox {
+  /* border: 1px solid red; */
+  width: 95%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  line-height: 0.3;
+  gap: 40px;
+}
+.nameIcon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.labelBox{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+.personalInfoContainer{
+    
+}

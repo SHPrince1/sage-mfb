@@ -4,7 +4,7 @@ import Table from '../table';
 // styles
 import style from '../../../styles/user.module.css'
 
-const Users = () => {
+const UserDashboard = () => {
   return (
     <div>
         <h1>Users</h1>
@@ -22,4 +22,4 @@ const Users = () => {
   );
 }
 
-export default Users;
+export default UserDashboard;
