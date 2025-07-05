@@ -7,11 +7,12 @@ import {
 import { Breadcrumb, Layout, Menu, theme } from "antd";
 
 import Login from "../components/login";
-import Users from "../components/dashboard/users/user";
+import UserDashboard from "../components/dashboard/users/user-dashboard";
 
 // imported images
 import Logo from "../assets/lensqr-logo.svg";
 import UserCard from "./dashboard/users/user-card";
+import UserGeneralDetails from "./dashboard/users/user-general-details";
 const { Header, Content, Sider } = Layout;
 
 // Top Navbar Items
@@ -69,7 +70,7 @@ const sidebarMenuItems = [
 const contentMap = {
   users: (
     <div>
-      <Users />
+      <UserGeneralDetails />
     </div>
   ),
   guarantor: <p>Add a new user here.</p>,
@@ -154,7 +155,7 @@ const [collapsed, setCollapsed] = useState(false);
               borderRadius: borderRadiusLG,
             }}
           >
-            {contentMap[selectedKey] || <UserCard />}
+            {contentMap[selectedKey] || <UserDashboard />}
           </Content>
         </Layout>
       </Layout>
